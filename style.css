@@ -1,0 +1,64 @@
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+body {
+	<!--background-color: lightblue;-->
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fira Sans Black", sans-serif;
+}
+
+h3 {
+	color: #767254; /* Bronze color*/
+	letter-spacing: 3px;
+}
+
+h4 {
+	color: gray; /* ISSUE: CREATE THE FUCKIN DIVS?*/
+	letter-spacing: 3px;
+
+}
+
+img {
+	max-width: 25%;
+	max-height: 25%;
+	margin: auto;
+	display: block;
+    }
+	
+input {
+	padding: 15px 20px; /* Length x Width */
+}
+
+.button {	
+	background-color: #ffffff; /* White */
+	color: black;
+	padding: 15px 75px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 16px;
+	border: 2px solid black;
+	font-family: "Fira Sans Black", sans-serif;
+	letter-spacing: 3px;
+}
+
+.bwbutton {
+	background-color: #191919; /* White */
+	color: White;
+	padding: 15px 75px;
+	text-align: center;
+	font-size: 16px;
+	border: 2px solid White;
+	font-family: "Fira Sans Black", sans-serif;
+	letter-spacing: 3px;
+}
