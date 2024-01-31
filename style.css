@@ -50,6 +50,7 @@ input {
 	border: 2px solid black;
 	font-family: "Fira Sans Black", sans-serif;
 	letter-spacing: 3px;
+	margin:auto;
 }
 
 .bwbutton {
@@ -61,4 +62,14 @@ input {
 	border: 2px solid White;
 	font-family: "Fira Sans Black", sans-serif;
 	letter-spacing: 3px;
+}
+
+a:link, a:visited {
+	color:gray;
+}
+
+
+footer {
+	/*background-color: Black;*/
+	text-align:left;
 }
