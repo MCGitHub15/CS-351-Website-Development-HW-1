@@ -1,76 +1,124 @@
-
 .fira-sans-black {
   font-family: "Fira Sans", sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
-
 body {
-	<!--background-color: lightblue;-->
-	text-align: center;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Fira Sans Black", sans-serif;
 }
 
 h3 {
-	color: #767254; /* Bronze color*/
-	letter-spacing: 3px;
+  color: #767254; /* Bronze color*/
+  letter-spacing: 3px;
 }
 
 h4 {
-	color: gray; /* ISSUE: CREATE THE FUCKIN DIVS?*/
-	letter-spacing: 3px;
-
+  color: gray; /* ISSUE: CREATE THE FUCKIN DIVS?*/
+  letter-spacing: 3px;
 }
 
 img {
-	/*max-width: 50%;
+  /*max-width: 50%;
 	max-height: 50%;*/
-	padding-top: 50px;
-	margin: auto;
-	display: block;
-    }
-	
-input {
-	padding: 15px 20px; /* Length x Width */
+  padding-top: 50px;
+  margin: auto;
+  display: block;
 }
 
-.button {	
-	background-color: #ffffff; /* White */
-	color: black;
-	padding: 15px 75px;
-	text-align: center;
-	text-decoration: none;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 16px;
-	border: 2px solid black;
-	font-family: "Fira Sans Black", sans-serif;
-	letter-spacing: 3px;
-	margin:auto;
+input {
+  padding: 15px 20px; /* Length x Width */
+}
+
+.button {
+  background-color: #ffffff; /* White */
+  color: black;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  border: 2px solid black;
+  font-family: "Fira Sans Black", sans-serif;
+  letter-spacing: 3px;
+  margin: auto;
 }
 
 .bwbutton {
-	background-color: #191919; /* White */
-	color: White;
-	padding: 15px 75px;
-	text-align: center;
-	font-size: 16px;
-	border: 2px solid White;
-	font-family: "Fira Sans Black", sans-serif;
-	letter-spacing: 3px;
+  background-color: #191919; /* White */
+  color: White;
+  padding: 15px 75px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid White;
+  font-family: "Fira Sans Black", sans-serif;
+  letter-spacing: 3px;
 }
 
-a:link, a:visited {
-	color:gray;
+a:link,
+a:visited {
+  color: rgb(255, 255, 255);
 }
-
 
 footer {
-	/*background-color: Black;*/
-	text-align:left;
+  /*background-color: Black;*/
+  text-align: left;
+}
+
+.vl {
+  border-left: 3px solid #2b2b2b;
+  height: auto;
+  position: flex;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.first {
+  width: 30vw;
+  height: 200px;
+  background-color: #191919;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.second {
+  width: 70vw;
+  height: 200px;
+  background-color: #191919;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+.third {
+  width: auto;
+  height: 200px;
+  background-color: #87c536;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #191919;
 }
