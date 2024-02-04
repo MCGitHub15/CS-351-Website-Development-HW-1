@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-  color: gray; /* ISSUE: CREATE THE FUCKIN DIVS?*/
+  color: gray;
   letter-spacing: 3px;
 }
 
@@ -31,8 +31,9 @@ img {
   /*max-width: 50%;
 	max-height: 50%;*/
   padding-top: 50px;
+  padding-bottom: 0px;
   margin: auto;
-  display: block;
+  display:flex;
 }
 
 input {
@@ -61,7 +62,7 @@ input {
   padding: 15px 75px;
   text-align: center;
   font-size: 16px;
-  border: 2px solid White;
+  border: 3px solid White;
   font-family: "Fira Sans Black", sans-serif;
   letter-spacing: 3px;
 }
@@ -72,7 +73,6 @@ a:visited {
 }
 
 footer {
-  /*background-color: Black;*/
   text-align: left;
 }
 
@@ -90,7 +90,7 @@ footer {
   height: 200px;
   background-color: #191919;
   text-align: center;
-  justify-content: center;
+  justify-content: center;	/* x-axis center */
   display: flex;
   margin: auto;
   align-items: center;
@@ -100,7 +100,9 @@ footer {
   width: 70vw;
   height: 200px;
   background-color: #191919;
-  text-align: center;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 40px;
   margin: auto;
   align-items: center;
 }
@@ -121,4 +123,21 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: #191919;
+}
+
+/* Column Styling */
+.column {
+	float: left;
+	width: 50%;
+}
+
+.column-three {
+	float: left;
+	width: 33%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
