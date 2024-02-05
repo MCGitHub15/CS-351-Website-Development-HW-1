@@ -18,26 +18,31 @@ h6 {
 }
 
 h3 {
-  color: #767254; /* Bronze color*/
+  color: #948660; /* Bronze color*/
   letter-spacing: 3px;
 }
 
 h4 {
-  color: gray;
+  color: rgb(255, 255, 255);
   letter-spacing: 3px;
 }
 
+p {
+  color: #000000;
+  font-size: 15px;
+  word-wrap: normal;
+}
+
 img {
-  /*max-width: 50%;
-	max-height: 50%;*/
   padding-top: 50px;
-  padding-bottom: 0px;
   margin: auto;
-  display:flex;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-flex;
 }
 
 input {
-  padding: 15px 20px; /* Length x Width */
+  padding: 15px 100px; /* Length x Width */
 }
 
 .button {
@@ -105,6 +110,7 @@ footer {
   padding-top: 40px;
   margin: auto;
   align-items: center;
+  
 }
 
 .third {
@@ -119,6 +125,17 @@ footer {
   align-items: center;
 }
 
+.info {
+  color: #ffffff;
+}
+
+.info-init {
+  color: #948660;
+}
+
+#Articles {
+  color: #ffffff;
+} 
 .container {
   display: flex;
   flex-direction: row;

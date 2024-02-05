@@ -10,9 +10,7 @@
         rel="stylesheet">
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
+        /*Add stuff here for general in html CSS*/
     </style>
 </head>
 
@@ -37,14 +35,14 @@
     <footer style="background-color: #191919;">
         <div class="container">
             <div class="first">
-                <a href="x.html#read">
-                    <h3>READ OUR LATEST ARTICLES</h3>
+                <a href="x.html#read" style="text-decoration: none;">
+                    <h3 id="Articles">READ OUR LATEST ARTICLES</h3>
                 </a>
             </div>
             <div class="vl"></div>
             <div class="second">
                 <h3>SIGN UP TO OUR NEWSLETTER</h3>
-                <input type="email" placeholder="Enter your email address" size="40">
+                <input type="email" placeholder="Enter your email address" >
                 <a href="x.html#sign">
                     <button type="button" class="bwbutton">SIGN UP</button>
                 </a>
@@ -52,16 +50,16 @@
         </div>
         <hr style="border-color: #2b2b2b; border-width: 2px;">
         <div class="container">
-            <div class="first" style="height: auto; display:block; text-align: left;">
+            <div class="first" style="height: auto; display: inline; text-align: left;">
                 <h3>HEADQUARTERS</h3>
                 <div class="row">
                     <div class="column" style="background-color: inherit;">
                         <h4>EDINBURGH</h4>
-                        <p>1012 Constitution Street<br />Edinburgh</br>Scotland</br>EH6 7AF</p>
+                        <p class="info">1012 Constitution Street<br />Edinburgh</br>Scotland</br>EH6 7AF</p>
                     </div>
                     <div class="column" style="background-color: inherit;">
-                        <p>T: +44 (0) 131 555 5555</p>
-                        <p>E: <a href="mailto:hello@xyzproductions.com">hello@xyzproductions.com</a></p>
+                        <p class="info"> <span class="info-init">T:</span> +44 (0) 131 555 5555</p>
+                        <p><span class="info-init">E:</span> <a href="mailto:hello@xyzproductions.com">hello@xyzproductions.com</a></p>
                     </div>
                 </div>
                 <a href="x.html#contact">
@@ -73,21 +71,21 @@
                 <div class="row">
                     <div class="column-three" style="background-color: inherit;">
                         <h4>NEW YORK</h4>
-                        <p>12 E 49th Street<br />5th Floor New York<br />New York 10017<br />USA</p><br />
-                        <p>T: +1 (212)-555-4845</p>
-                        <p>E: <a href="mailto:newyork@xyzproductions.com ">newyork@xyzproductions.com</a></p>
+                        <p class="info">12 E 49th Street<br />5th Floor New York<br />New York 10017<br />USA</p><br />
+                        <p class="info"><span class="info-init">T:</span> +1 (212)-555-4845</p>
+                        <p><span class="info-init">E:</span> <a href="mailto:newyork@xyzproductions.com ">newyork@xyzproductions.com</a></p>
                     </div>
                     <div class="column-three" style="background-color: inherit;">
                         <h4>LONDON</h4>
-                        <p>128 Dean Street<br />London<br />England<br />W1D 4PQ</p><br />
-                        <p>T: +44 (0)20 5555 1199</p>
-                        <p>E: <a href="mailto:london@xyzproductions.com">london@xyzproductions.com</a></p>
+                        <p class="info">128 Dean Street<br />London<br />England<br />W1D 4PQ</p><br />
+                        <p class="info"><span class="info-init">T:</span> +44 (0)20 5555 1199</p>
+                        <p><span class="info-init">E:</span> <a href="mailto:london@xyzproductions.com">london@xyzproductions.com</a></p>
                     </div>
                     <div class="column-three" style="background-color: inherit;">
                         <h4>MANCHESTER</h4>
-                        <p>37 Gidfield Road<br>Manchester<br />England<br />M5 4LZ</p><br />
-                        <p>T: +44 (0) 161 487 1212</p>
-                        <p>E: <a href="mailto:manchester@xyzproductions.com">manchester@xyzproductions.com</a></p>
+                        <p class="info">37 Gidfield Road<br>Manchester<br />England<br />M5 4LZ</p><br />
+                        <p class="info"><span class="info-init">T:</span> +44 (0) 161 487 1212</p>
+                        <p class="info"><span class="info-init">E:</span> <a href="mailto:manchester@xyzproductions.com">manchester@xyzproductions.com</a></p>
                     </div>
                 </div>
             </div>
