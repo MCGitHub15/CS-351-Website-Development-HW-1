@@ -1,160 +1,242 @@
-.fira-sans-black {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+/* Universal select all elements */
+* {
+	
 }
 
+/* Select all elements in body */
 body {
-  text-align: center;
+	text-align: center;
+	font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Fira Sans Black", sans-serif;
+/* Black Box Title*/
+.title-card {
+	width: 450px;
+	height: 250px;
+	margin: auto;
+	outline: solid 1px black;
+	display: block;
+	justify-content: center;
+	background-color: #191919;
+	text-align:center;
+	color: White;
+	padding-top: 25px;
 }
 
-h3 {
-  color: #948660; /* Bronze color*/
-  letter-spacing: 3px;
+#title-hr {
+	width: 80%;
+	background-color:#767676;
 }
 
-h4 {
-  color: rgb(255, 255, 255);
-  letter-spacing: 3px;
+#title-no {
+	font-size: 60px;
+	vertical-align: top;
 }
 
-p {
-  color: #000000;
-  font-size: 15px;
-  word-wrap: normal;
+/* Display for the number */
+#title-num {
+	font-size: 100px;
 }
 
 img {
-  padding-top: 50px;
-  margin: auto;
-  margin-right: auto;
-  margin-left: auto;
-  display: inline-flex;
+	padding-top: 60px;;
 }
 
-input {
-  padding: 15px 100px; /* Length x Width */
+#interest {
+	color: #b3b28e; 
+	letter-spacing: 2px;
 }
 
-.button {
+/* Link controls */
+a:link,
+a:visited {
+  color: White;
+}
+
+/* Used for the text under the image due to exessive white space in the png image*/
+.container-img {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 60px;
+}
+
+/* Black Bordered Button used for Get In Touch*/
+.bwbutton {
   background-color: #ffffff; /* White */
   color: black;
-  padding: 15px 75px;
+  padding: 20px 75px;
   text-align: center;
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  display: flex;
   font-size: 16px;
-  border: 2px solid black;
-  font-family: "Fira Sans Black", sans-serif;
+  border: 3px solid black;
   letter-spacing: 3px;
-  margin: auto;
+  cursor: pointer;
+  
 }
 
-.bwbutton {
-  background-color: #191919; /* White */
+footer {
+	background-color: #191919;
+	padding-bottom: 50px;
+}
+
+hr {
+	border-color:gray;
+}
+
+.signupbutton {
+  background-color: #191919; /* Black */
   color: White;
   padding: 15px 75px;
   text-align: center;
   font-size: 16px;
   border: 3px solid White;
-  font-family: "Fira Sans Black", sans-serif;
   letter-spacing: 3px;
+  cursor: pointer;
 }
 
-a:link,
-a:visited {
-  color: rgb(255, 255, 255);
+.contactbutton {
+	background-color: #191919; /* Black */
+	color: White;
+	padding: 10px 55px;
+	text-align: center;
+	font-size: 16px;
+	border: 3px solid White;
+	letter-spacing: 3px;
+	cursor: pointer;
+	height: 50px;
+	cursor: pointer;
+	display: inline-block;
+	clear: both;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
-footer {
-  text-align: left;
+/* Change the size of the input box for email*/
+input {
+	padding: 15px 75px; /* Length x Width */
+	text-align: left;
 }
 
-.vl {
-  border-left: 3px solid #2b2b2b;
-  height: auto;
-  position: flex;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
+/* General contrainer used for flexbox css*/
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-left:25px;
+  background-color: #191919;
 }
 
+/* Container to hold the Read Article */
 .first {
   width: 30vw;
   height: 200px;
-  background-color: #191919;
   text-align: center;
   justify-content: center;	/* x-axis center */
   display: flex;
   margin: auto;
   align-items: center;
+  background-color: #191919;
 }
 
+/* Contrainer to hold the Sign Up Newsletter */
 .second {
   width: 70vw;
   height: 200px;
-  background-color: #191919;
   text-align: left;
   padding-left: 70px;
   padding-top: 40px;
   margin: auto;
   align-items: center;
-  
 }
 
+/* Container to hold the HeadQuarters */
 .third {
-  width: auto;
-  height: 200px;
-  background-color: #87c536;
-  display: block;
-  text-align: center;
-  justify-content: center;
-  display: flex;
+  width: 30vw;
+  height: auto;
+  padding-top: 20px;
+  text-align: left;
+  margin: auto;
+}
+
+/* Container to hold the Offices */
+.fourth {
+  width: 70vw;
+  height: auto;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 20px;
   margin: auto;
   align-items: center;
 }
 
-.info {
-  color: #ffffff;
+/* Styling for the Newsletter heading */
+#newsletter {
+	color: #a19f78; 
+	letter-spacing: 4px;
+	text-align:left;
+	font-size: 15px;
 }
 
-.info-init {
-  color: #948660;
+/* Styling for the article heading */
+#article {
+	letter-spacing: 4px;
 }
 
-#Articles {
-  color: #ffffff;
-} 
-.container {
+.no-link {
+	text-decoration: none;
+}
+
+.main-heading {
+	color: #ad9d65;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.sub-heading {
+	color: #ffffff;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.f-text {
+	color: #ffffff;
+	text-align: left;
+}
+/* Use a table for the footer? */
+table {
+	width: 100%;
+}
+
+.row {
   display: flex;
-  flex-direction: row;
-  background-color: #191919;
 }
 
-/* Column Styling */
 .column {
-	float: left;
-	width: 50%;
+	flex: 50%;
+	color: #ffffff;
 }
 
 .column-three {
-	float: left;
-	width: 33%;
+	flex: 10%;
+	color: #ffffff;
 }
 
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
+.highlight {
+	color: #ad9d65;
+}
+
+/* Vertical line (custom) */
+.vl {
+	padding-top: 20px;
+	border-left: 1px solid #767676;
+	height: 225px;
 }
