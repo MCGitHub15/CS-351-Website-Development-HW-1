@@ -23,11 +23,13 @@ body {
 	padding-top: 25px;
 }
 
+/* Horizontal line in the title box */
 #title-hr {
 	width: 80%;
 	background-color:#767676;
 }
 
+/* Title styling for the "13" */
 #title-no {
 	font-size: 60px;
 	vertical-align: top;
@@ -38,10 +40,12 @@ body {
 	font-size: 100px;
 }
 
+/* Image styling */
 img {
 	padding-top: 60px;;
 }
 
+/* Styling for intrest heading */
 #interest {
 	color: #b3b28e; 
 	letter-spacing: 2px;
@@ -84,15 +88,18 @@ a:visited {
   
 }
 
+/* Footer */
 footer {
 	background-color: #191919;
 	padding-bottom: 50px;
 }
 
+/* Horizontal Line */
 hr {
 	border-color:gray;
 }
 
+/* Sign up button */
 .signupbutton {
   background-color: #191919; /* Black */
   color: White;
@@ -104,6 +111,7 @@ hr {
   cursor: pointer;
 }
 
+/* Contact button */
 .contactbutton {
 	background-color: #191919; /* Black */
 	color: White;
@@ -147,7 +155,7 @@ input {
   background-color: #191919;
 }
 
-/* Contrainer to hold the Sign Up Newsletter */
+/* Container to hold the Sign Up Newsletter */
 .second {
   width: 70vw;
   height: 200px;
@@ -191,45 +199,49 @@ input {
 	letter-spacing: 4px;
 }
 
+/* No link to ensure that the text is not underlined */
 .no-link {
 	text-decoration: none;
 }
 
+/* Main heading styling for the footer */
 .main-heading {
 	color: #ad9d65;
 	letter-spacing: 3px;
 	text-align: left;
 }
 
+/* Sub heading styling for the footer */
 .sub-heading {
 	color: #ffffff;
 	letter-spacing: 3px;
 	text-align: left;
 }
 
+/* Main heading styling for the footer */
 .f-text {
 	color: #ffffff;
 	text-align: left;
 }
-/* Use a table for the footer? */
-table {
-	width: 100%;
-}
 
+/* Rows styling for the footer */
 .row {
   display: flex;
 }
 
+/* Columns styling for the footer */
 .column {
 	flex: 50%;
 	color: #ffffff;
 }
 
+/* Three columns styling for footer */
 .column-three {
 	flex: 10%;
 	color: #ffffff;
 }
 
+/* Styling for the highlights of telephone and email */
 .highlight {
 	color: #ad9d65;
 }
@@ -240,3 +252,14 @@ table {
 	border-left: 1px solid #767676;
 	height: 225px;
 }
+
+/* Use a table for the footer? */
+table {
+	width: 100%;
+}
+
+/* Created by Matthew Carreon
+Last updated: 02/05/2024
+//////////////////////////////
+Change Log:
+2/5: REFACTORED CODE, Updated code comments */
