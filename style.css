@@ -5,7 +5,6 @@
 
 /* Select all elements in body */
 body {
-	text-align: center;
 	font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -14,6 +13,7 @@ body {
 	width: 450px;
 	height: 250px;
 	margin: auto;
+	margin-top: 50px;
 	outline: solid 1px black;
 	display: block;
 	justify-content: center;
@@ -49,6 +49,12 @@ img {
 #interest {
 	color: #b3b28e; 
 	letter-spacing: 2px;
+}
+
+/* */
+#sub-interest {
+	height: 50px;
+	width: 725px;
 }
 
 /* Link controls */
@@ -131,7 +137,8 @@ hr {
 
 /* Change the size of the input box for email*/
 input {
-	padding: 15px 75px; /* Length x Width */
+	height: 50px; /* Length x Width */
+	width: 350px;
 	text-align: left;
 }
 
@@ -161,9 +168,8 @@ input {
   height: 200px;
   text-align: left;
   padding-left: 70px;
-  padding-top: 40px;
-  margin: auto;
-  align-items: center;
+  padding-top: 80px;
+
 }
 
 /* Container to hold the HeadQuarters */
@@ -237,8 +243,8 @@ input {
 
 /* Three columns styling for footer */
 .column-three {
-	flex: 10%;
 	color: #ffffff;
+	width: 22%;
 }
 
 /* Styling for the highlights of telephone and email */
@@ -250,7 +256,12 @@ input {
 .vl {
 	padding-top: 20px;
 	border-left: 1px solid #767676;
-	height: 225px;
+	height: auto;
+}
+
+/*align text left*/
+#left-text {
+	text-align: left;
 }
 
 /* Use a table for the footer? */
@@ -258,8 +269,15 @@ table {
 	width: 100%;
 }
 
+/*Input field with the type email has text aligned left */
+input[type="email"]{
+	text-align: left;
+}
+
 /* Created by Matthew Carreon
 Last updated: 02/05/2024
 //////////////////////////////
 Change Log:
-2/5: REFACTORED CODE, Updated code comments */
+2/5: REFACTORED CODE, Updated code comments 
+2/6: Code update to address minor issues with text and formats
+*/
