@@ -45,7 +45,7 @@ img {
 	padding-top: 60px;;
 }
 
-/* Styling for intrest heading */
+/* Styling for interest heading */
 #interest {
 	color: #b3b28e; 
 	letter-spacing: 2px;
@@ -63,7 +63,7 @@ a:visited {
   color: White;
 }
 
-/* Used for the text under the image due to exessive white space in the png image*/
+/* Used for the text under the image due to excessive white space in the png image*/
 .container-img {
   position: relative;
   text-align: center;
@@ -142,7 +142,7 @@ input {
 	text-align: left;
 }
 
-/* General contrainer used for flexbox css*/
+/* General container used for flexbox css*/
 .container {
   display: flex;
   flex-direction: row;
