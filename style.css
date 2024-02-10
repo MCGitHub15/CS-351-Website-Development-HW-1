@@ -150,7 +150,7 @@ input {
 /* Container to hold the Read Article */
 .first {
   width: 30vw;
-  height: 200px;
+  height: 175px;
   text-align: center;
   justify-content: center;	/* x-axis center */
   display: flex;
@@ -162,10 +162,10 @@ input {
 /* Container to hold the Sign Up Newsletter */
 .second {
   width: 70vw;
-  height: 200px;
+  height: 175px;
   text-align: left;
   padding-left: 70px;
-  padding-top: 80px;
+  padding-top: 50px;
 
 }
 
