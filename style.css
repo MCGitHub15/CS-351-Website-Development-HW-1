@@ -8,6 +8,7 @@ body {
 	font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 }
+/* Possible use Roboto?*/
 
 /* Black Box Title*/
 .title-card {
@@ -52,7 +53,7 @@ img {
 	letter-spacing: 2px;
 }
 
-/* */
+/* Styling for anything below the interest heading */
 #sub-interest {
 	height: 50px;
 	width: 725px;
