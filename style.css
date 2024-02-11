@@ -30,22 +30,23 @@ body {
 #title-no {
 	font-size: 60px;
 	vertical-align: top;
+	text-underline-position: under;
 }
 
 /* Display for the number */
 #title-num {
-	font-size: 100px;
+	font-size: 125px;
 }
 
 /* Image styling */
 img {
-	padding-top: 60px;;
+	padding-top: 60px;
 }
 
 /* Styling for interest heading */
 #interest {
-	color: #b3b28e; 
-	letter-spacing: 2px;
+	color: #969469; 
+	letter-spacing: 3px;
 }
 
 /* Styling for anything below the interest heading */
@@ -269,6 +270,8 @@ table {
 /*Input field with the type email has text aligned left */
 input[type="email"]{
 	text-align: left;
+	font-size: large;
+	padding-left: 8px;
 }
 
 /* Created by Matthew Carreon
@@ -277,4 +280,5 @@ Last updated: 02/05/2024
 Change Log:
 2/5: REFACTORED CODE, Updated code comments 
 2/6: Code update to address minor issues with text and formats
+2/11: Minor updates to address certain style issues
 */
