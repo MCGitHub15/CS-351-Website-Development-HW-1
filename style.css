@@ -66,6 +66,7 @@ a:visited {
 .container-img {
   position: relative;
   text-align: center;
+  margin: auto;
 }
 
 /* Centered text */
